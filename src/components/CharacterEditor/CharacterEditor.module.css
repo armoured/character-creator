@@ -4,7 +4,7 @@
 }
 
 .maxWidthWrapper {
-  /* position: relative; */
+  position: relative;
 }
 
 .header {
@@ -44,5 +44,5 @@
   background-color:hsl(195deg, 20%, 86%);
   position: fixed;
   top: 60%;
-  z-index: -1;
+  /* z-index: -1; */ /* using position: relative in .maxWidthWrapper instead and place the backgroundBar first in the rendering order*/
 }
